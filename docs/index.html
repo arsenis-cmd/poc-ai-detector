@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoC AI Content Detector - Privacy Policy & Documentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 16px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+        }
+
+        h1 {
+            font-size: 32px;
+            color: white;
+            font-weight: 700;
+        }
+
+        .tagline {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #a78bfa;
+            text-decoration: none;
+            padding: 8px 16px;
+            background: rgba(167, 139, 250, 0.1);
+            border-radius: 8px;
+            transition: all 0.3s;
+            border: 1px solid rgba(167, 139, 250, 0.3);
+        }
+
+        nav a:hover {
+            background: rgba(167, 139, 250, 0.2);
+            border-color: rgba(167, 139, 250, 0.5);
+        }
+
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #1f2937;
+            font-size: 28px;
+            margin: 30px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #374151;
+            font-size: 20px;
+            margin: 25px 0 15px 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #4b5563;
+        }
+
+        ul, ol {
+            margin: 15px 0 15px 30px;
+            color: #4b5563;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .highlight-box {
+            background: #f3f4f6;
+            border-left: 4px solid #6366f1;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .highlight-box h3 {
+            margin-top: 0;
+            color: #6366f1;
+        }
+
+        strong {
+            color: #1f2937;
+        }
+
+        footer {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 60px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+        }
+
+        footer a {
+            color: #a78bfa;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .last-updated {
+            font-style: italic;
+            color: #6b7280;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 15px;
+            }
+
+            header {
+                padding: 20px;
+            }
+
+            .content {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="logo-icon">P</div>
+                <div>
+                    <h1>PoC AI Content Detector</h1>
+                    <p class="tagline">Detect AI-generated content and bot activity across the web</p>
+                </div>
+            </div>
+            <nav>
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#permissions">Permissions</a>
+                <a href="#data">Data Usage</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <div class="content">
+            <p class="last-updated"><strong>Last Updated:</strong> January 5, 2026</p>
+
+            <h2 id="privacy">Privacy Policy</h2>
+
+            <h3>Overview</h3>
+            <p>
+                PoC AI Content Detector is a browser extension that helps users identify AI-generated content and bot activity on webpages.
+                We are committed to protecting your privacy and being transparent about our data practices.
+            </p>
+
+            <h3>Data We Store Locally</h3>
+            <p>The extension stores the following data locally on your device using Chrome's storage API:</p>
+            <ul>
+                <li><strong>Scan Statistics:</strong> Total number of scans performed, AI content detected, and session activity</li>
+                <li><strong>API Configuration:</strong> Your configured backend server URL</li>
+                <li><strong>Extension Settings:</strong> Your preferences and configuration options</li>
+            </ul>
+            <p><strong>Important:</strong> This data is stored exclusively on your device and is never transmitted to any third party.</p>
+
+            <h3>Data Sent to Your Configured API Server</h3>
+            <p>When you scan a webpage, the extension sends the following to <strong>your own configured backend server</strong>:</p>
+            <ul>
+                <li><strong>Text Content:</strong> Selected text from the webpage being analyzed</li>
+                <li><strong>Source URL:</strong> The URL of the webpage being scanned</li>
+                <li><strong>Platform Information:</strong> The detected platform (Twitter, Reddit, etc.)</li>
+            </ul>
+            <p><strong>Note:</strong> This data is sent to your own backend server that you configure. We do not operate any backend servers or collect this data ourselves.</p>
+
+            <h2 id="permissions">Permissions Explained</h2>
+            <p>The extension requires the following permissions to function:</p>
+
+            <div class="highlight-box">
+                <h3>activeTab</h3>
+                <p><strong>Why we need it:</strong> To read content from the webpage you're currently viewing when you click "Scan"</p>
+                <p><strong>What we do:</strong> Extract text content for AI detection analysis</p>
+            </div>
+
+            <div class="highlight-box">
+                <h3>storage</h3>
+                <p><strong>Why we need it:</strong> To save your settings and scan statistics locally on your device</p>
+                <p><strong>What we do:</strong> Store API URL, scan counts, and preferences</p>
+            </div>
+
+            <div class="highlight-box">
+                <h3>scripting</h3>
+                <p><strong>Why we need it:</strong> To inject detection scripts into webpages</p>
+                <p><strong>What we do:</strong> Add visual highlighting and detection functionality to pages you visit</p>
+            </div>
+
+            <div class="highlight-box">
+                <h3>host_permissions (&lt;all_urls&gt;)</h3>
+                <p><strong>Why we need it:</strong> To work on any website you choose to scan</p>
+                <p><strong>What we do:</strong> Enable AI detection on any webpage you visit</p>
+            </div>
+
+            <h2 id="data">Data Collection & Usage</h2>
+
+            <h3>What We DON'T Collect</h3>
+            <ul>
+                <li>Personal information (name, email, etc.)</li>
+                <li>Browsing history</li>
+                <li>Cookies or tracking data</li>
+                <li>User analytics or telemetry</li>
+                <li>Any data from unscanned pages</li>
+            </ul>
+
+            <h3>Third-Party Services</h3>
+            <p>
+                The extension connects to a backend API server that <strong>you configure and control</strong>.
+                We do not provide, control, or have access to this server. You are responsible for:
+            </p>
+            <ul>
+                <li>Running your own backend server (locally or hosted)</li>
+                <li>Understanding the privacy policy of any third-party hosting service you use</li>
+                <li>Securing your API endpoint</li>
+            </ul>
+
+            <h3>Data Retention</h3>
+            <p>All data is stored locally on your device. You can clear this data at any time by:</p>
+            <ol>
+                <li>Removing the extension</li>
+                <li>Clearing Chrome's extension data</li>
+                <li>Using Chrome's privacy settings</li>
+            </ol>
+
+            <h2>Security</h2>
+            <p>
+                We implement security best practices including:
+            </p>
+            <ul>
+                <li>No remote code execution</li>
+                <li>No inline scripts (Content Security Policy compliant)</li>
+                <li>Secure communication with your configured API server</li>
+                <li>Local-only data storage</li>
+            </ul>
+
+            <h2>Children's Privacy</h2>
+            <p>
+                Our extension is not directed at children under 13 years of age. We do not knowingly collect information from children.
+            </p>
+
+            <h2>Changes to This Policy</h2>
+            <p>
+                We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated "Last Updated" date.
+            </p>
+
+            <h2 id="contact">Contact</h2>
+            <p>
+                For questions about this privacy policy or the extension, please:
+            </p>
+            <ul>
+                <li>Open an issue on our <a href="https://github.com/yourusername/poc-ai-detector/issues" target="_blank">GitHub repository</a></li>
+                <li>Email: <a href="mailto:support@example.com">support@example.com</a></li>
+            </ul>
+
+            <h2>Open Source</h2>
+            <p>
+                This extension is open source. You can review the complete source code to understand exactly how your data is handled:
+                <a href="https://github.com/yourusername/poc-ai-detector" target="_blank">View on GitHub</a>
+            </p>
+
+            <h2>Your Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Access all data the extension stores (it's all local on your device)</li>
+                <li>Delete all extension data at any time</li>
+                <li>Use the extension without creating an account</li>
+                <li>Control what data is sent to your backend server</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 PoC AI Content Detector. All rights reserved.</p>
+            <p>
+                <a href="https://github.com/yourusername/poc-ai-detector" target="_blank">GitHub</a> |
+                <a href="#privacy">Privacy Policy</a> |
+                <a href="mailto:support@example.com">Support</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
